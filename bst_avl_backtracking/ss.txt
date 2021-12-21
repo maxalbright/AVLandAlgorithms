@@ -1,0 +1,6 @@
+5 5 2
+aaron    101  104
+michael  103  101
+stephen  170  104
+nikhil   270  101
+arush    170  270
