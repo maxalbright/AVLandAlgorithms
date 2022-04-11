@@ -2,17 +2,17 @@
 
 # Binary Search Trees, AVL Trees, and Backtracking
 
-### Binary Search Tree (BST) Implementation
+## Binary Search Tree (BST) Implementation
 bst.h is a templated binary search tree class which implements standard insertion, deletion, find, isBalanced, clear, and print methods. It promotes the predecessor node in deletion. 
 
-### AVL Tree Implementation
+## AVL Tree Implementation
 avl.h is a templated avl tree class that derives from bst.h. It balances the tree after insertion and deletion. 
 
 
-### Backtracking Algorithm
+## Backtracking Algorithm
 scheduling.cpp implements a backtracking algorithm which takes an input file that includes on the first line: how many exams there are, how many students there are, and how many timeslots there are.  
 On each following line there is the name of a student, and the name of the classes that student is in. 
-For example:
+For example:  
 5 4 3  
 aaron    104 170  
 leia 104   170 350  
