@@ -1,5 +1,3 @@
-Max Albright
-mdalbrig@usc.edu
 
 
 Binary Search Trees, AVL Trees, and Backtracking
