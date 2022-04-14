@@ -6,6 +6,7 @@ bst.h is a templated binary search tree class which implements standard insertio
 ## AVL Tree Implementation
 avl.h is a templated avl tree class that derives from bst.h. It balances the tree after insertion and deletion.  <br><br>
 
+<hr>
 
 ## Backtracking Algorithm
 scheduling.cpp implements a backtracking algorithm which takes an input file that includes on the first line: "e s t" where <br>
@@ -14,7 +15,8 @@ scheduling.cpp implements a backtracking algorithm which takes an input file tha
 - t = how many timeslots there are.  <br>
 
 On each following line there is the name of a student, and the name of the classes that student is in. 
-For example:  
+<br><br>
+Example Input File: <br>
 5 4 3  
 aaron    104 170  
 leia 104   170 350  
@@ -30,5 +32,7 @@ The output is then the classes assigned to their respective timeslots: one class
 
 If there is no solution, it outputs "No valid solution."  
 The backtracking algorithm utilizes the AVL class to keep track of the timeslot each class is in.   
+
+## To Compile:
 
 To compile scheduling.cpp, simply type "make" or "make scheduling" and then run it using ./scheduling <inputfilename>
