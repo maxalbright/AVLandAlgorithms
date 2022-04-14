@@ -1,9 +1,7 @@
 # Binary Search Trees, AVL Trees, and Backtracking
 
 ## Binary Search Tree (BST) Implementation
-bst.h is a templated binary search tree class which implements standard insertion, deletion, find, isBalanced, clear, and print methods. It also implements an iterator that performs in-order traversal through the tree, just as the iterator of a map in the standard template library does. 
-
-<br> Note: This implementation promotes the predecessor node in deletion. <br><br>
+bst.h is a templated binary search tree class which implements standard insertion, deletion, find, isBalanced, clear, and print methods. It also implements an iterator that performs in-order traversal through the tree, just as the iterator of a map in the standard template library does. Note: This implementation promotes the predecessor node in deletion. <br><br>
 
 ## AVL Tree Implementation
 avl.h is a templated avl tree class that derives from bst.h. It balances the tree after insertion and deletion. <br>
