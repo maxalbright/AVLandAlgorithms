@@ -8,7 +8,11 @@ avl.h is a templated avl tree class that derives from bst.h. It balances the tre
 
 
 ## Backtracking Algorithm
-scheduling.cpp implements a backtracking algorithm which takes an input file that includes on the first line: how many exams there are, how many students there are, and how many timeslots there are.  
+scheduling.cpp implements a backtracking algorithm which takes an input file that includes on the first line: "e s t" where <br>
+- e = how many exams there are
+- s = how many students there are
+- t = how many timeslots there are.  <br>
+- 
 On each following line there is the name of a student, and the name of the classes that student is in. 
 For example:  
 5 4 3  
