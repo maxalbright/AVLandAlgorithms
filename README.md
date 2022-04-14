@@ -4,7 +4,14 @@
 bst.h is a templated binary search tree class which implements standard insertion, deletion, find, isBalanced, clear, and print methods. It also implements an iterator that performs in-order traversal through the tree, just as the iterator of a map in the standard template library does. Note: This implementation promotes the predecessor node in deletion. <br><br>
 
 ## AVL Tree Implementation
-avl.h is a templated avl tree class that derives from bst.h. It balances the tree after insertion and deletion. <br>
+avl.h is a templated avl tree class that derives from bst.h. It balances the tree after insertion and deletion. <br><br>
+
+Example: <br>
+
+<img width="650" alt="Screen Shot 2022-04-13 at 7 58 41 PM" src="https://user-images.githubusercontent.com/70349082/163304955-c16700eb-87a5-4ca6-96cb-9a3cf068286a.png">
+<img width="500" alt="Screen Shot 2022-04-13 at 7 59 57 PM" src="https://user-images.githubusercontent.com/70349082/163305082-c98237e1-5b12-4684-93aa-4f6ec2dd2f45.png">
+<img width="169" alt="Screen Shot 2022-04-13 at 8 00 11 PM" src="https://user-images.githubusercontent.com/70349082/163305109-6abe4604-5228-4aed-8370-3c65919acdd6.png">
+<img width="461" alt="Screen Shot 2022-04-13 at 8 00 43 PM" src="https://user-images.githubusercontent.com/70349082/163305173-63213c64-d212-47e1-800a-d65b95c0b791.png"> <br>
 
 <hr>
 
